@@ -1,0 +1,156 @@
+{{- /* Custom profile html at home page */ -}}
+{{- $profile := .Site.Params.home.profile -}}
+  {{- /* Custom Content */ -}}
+  <div class="custom-section">
+    {{- $byow := $profile.byowURL -}}
+    {{- $gitlet := $profile.gitletURL -}}
+    <p>在尝试transcoding的懒狗. Some tiny programs I've written:</p>
+  
+
+    <div class = "row project">
+      <div class = "columns thumbnail">
+        <img src="https://github.com/cycSergio/cycSergio.github.io/blob/main/assets/byow2.png?raw=true" alt="a screenshot of the game">
+      </div>
+      <div class="colums intro">
+        <p class="title">BYOW (Build Your Own World)</p>
+        <p class="overview">A game development project made for CS61B (Data Structures & Programming Methodology).
+          It is a 2D tile-based game where players explore a randomly generating world 
+          composed of rooms and hallways based on user seed. The game allows saving and loading the process.
+          There are several additional features implemented:
+          multiple avatars and themes to choose from, interactive sound effects,
+          lighting effects controlled by avatar, and a HUD displaying remaining lives and interactive info.</p>
+        <p class="projlinks"></p>
+      </div>
+    </div>
+
+    <div class = "row project">
+      <div class = "columns thumbnail">
+        <img src="https://github.com/cycSergio/cycSergio.github.io/blob/main/assets/giletModel.jpg?raw=true">
+      </div>
+      <div class="colums intro">
+        <p class="title">Gitlet</p>
+        <p class="overview">A version-control system that mimics some of the basic features of the popular system Git.
+          As a simpler implementation of git, Gitlet mainly supports saving
+          the contents of entire directories of files, restoring a version of files or commits, viewing the history of
+          your backups, maintaining related sequences of commits, and merging changes made in one branch into another.
+          All implemented functionalities include <code>init</code>, 
+          <code>add</code>, <code>commit</code>, <code>rm</code>, <code>log</code>, <code>global-log</code>,
+          <code>find</code>, <code>status</code>, <code>checkout</code>, <code>branch</code>, <code>rm-branch</code>, 
+          <code>reset</code>, and <code>merge</code>. 
+        </p>
+        <p class="projlinks"></p>
+      </div>
+    </div>
+
+
+<style type="text/css">
+  :root {
+    --green: #51cc37;
+    --red:   #cc334D;
+    --blue:  #334DCC;
+    --yellow: #ffed91;
+    --darkblue:  #131D4D;
+    --lightblue:  #7585D5;
+    --lightgray:  #f2f2f2;
+    --darkgray:  #333;
+  }
+  .column, .columns
+  {
+    padding-left: 1em;
+    padding-right: 1em;
+    float:left;
+  }
+  .large-5
+  {
+    min-width: calc(0.5*(100% - 150px - 6em));
+  }
+  .intro
+  {
+    width: calc(160% - 400px - 7em);
+  }
+  .row
+  {
+    text-align: center;
+    width: 110%;
+    max-width: 150em;
+    margin: 2em auto;
+  }
+  .row:before, .row:after
+  {
+    content: " ";
+    display: table;
+  }
+  .row:after
+  {
+    clear: both;
+  }
+  .me
+  {
+    font-weight: bold;
+  }
+  .notme
+  {
+  }
+  .title{
+    font-weight: bold;
+    line-height: 1em;
+  }
+  .thumbnail
+  {
+    width: 300px;
+  }
+  .thumbnail img
+  {
+    max-width: 100%;
+  }
+  .overview
+  {
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: medium;
+  }
+  p
+  {
+   display: inline-block;
+   vertical-align: middle;
+   text-align: left;
+   margin-top: 0;
+   margin-bottom: 0.2em;
+  }
+  .project p, .course p
+  {
+   display: block;
+   margin-top: -.5em ;
+   margin-bottom: 0.5em ;
+  }
+  /*
+  a[href$=".pdf"]:after
+  {
+    content: " [pdf]";
+  }
+  */
+  .links{
+    line-height: 1em;
+  }
+  .authors{
+    line-height: 1em;
+    font-size: small;
+  }
+  .projlinks a
+  {
+    background-color: var(--lightgray);
+  }
+  .projlinks a:hover
+  {
+    background-color: var(--yellow);
+  }
+  .footer
+  {
+    font-size: 0.7em;
+    text-align: center;
+  }
+  </style>
+
+  </div>
+
+
