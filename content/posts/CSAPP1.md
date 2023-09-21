@@ -38,3 +38,27 @@ repost:
 ---
 
 <!--more-->
+
+how to study csapp, no idea right now
+
+take a look at the table of contents:
+
+Chapter 1 introduces the key concepts that come into play by tracing the lifetime of the `hello` program.
+
+Part Ⅰ(Chapter 2 - 6) Program Structure and Execution.
+
+Part Ⅱ(Chapter 7 - 9) Running Programs on a System.
+
+Part Ⅲ(Chapter 7 - 9) Interaction and Communication between Programs.
+
+
+
+
+
+
+
+# Lecture 01: Overview
+
+Course Theme: **Abstraction Is Good But Don't Forget Reality**.
+
+Abstractions, like abstract data types and asymptotic analysis, have limits, especially in the presence of bugs. ∴ need to understand details of underlying implementations → become more effective programmers & prepare for later "systems" classes in CS.

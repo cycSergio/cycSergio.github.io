@@ -4,7 +4,7 @@
   <div class="custom-section">
     {{- $byow := $profile.byowURL -}}
     {{- $gitlet := $profile.gitletURL -}}
-    <p>在尝试transcoding的懒狗. Some tiny programs I've written:</p>
+    <p class="words">在尝试transcoding的懒狗，每天拙劣地学习. Some tiny programs I've written:</p>
   
 
     <div class = "row project">
@@ -25,7 +25,7 @@
 
     <div class = "row project">
       <div class = "columns thumbnail">
-        <img src="https://github.com/cycSergio/cycSergio.github.io/blob/master/assets/giletModel.jpg?raw=true">
+        <img src="https://github.com/cycSergio/cycSergio.github.io/blob/master/assets/giletModel.jpg?raw=true‘">
       </div>
       <div class="colums intro">
         <p class="title">Gitlet</p>
@@ -41,6 +41,8 @@
         <p class="projlinks"></p>
       </div>
     </div>
+
+    <p class="words">2023剩下的时间里想学/要学：CSAPP，Assembly Language，Networks.</p>
 
 
 <style type="text/css">
@@ -66,7 +68,7 @@
   }
   .intro
   {
-    width: calc(160% - 400px - 7em);
+    width: calc(160% - 450px - 7em);
   }
   .row
   {
@@ -122,6 +124,12 @@
    display: block;
    margin-top: -.5em ;
    margin-bottom: 0.5em ;
+  }
+  .words
+  {
+    display: inline-block;
+    height: 10%;
+    background-color: #f5efc3;
   }
   /*
   a[href$=".pdf"]:after
