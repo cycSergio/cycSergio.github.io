@@ -249,7 +249,7 @@ theme = "FixIt"
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "./avatar.jpg"
+      avatarURL = "./avatar2.png"
       # FixIt 0.2.17 | 新增 头像菜单链接的 identifier
       avatarMenu = ""
       # FixIt 0.2.7 | 更改 主页显示的网站标题（支持 HTML 格式）
